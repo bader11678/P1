@@ -40,6 +40,7 @@ def test(X, Y, w):
     print("\nSuccess: %d/%d (%.2f%%)" % (correct_results, total_examples, success_percent))
 
 
+# Loading the data
 x1, x2, x3, y = np.loadtxt("police.txt", skiprows=1, unpack=True)
 X = np.column_stack((np.ones(x1.size), x1, x2, x3))
 Y = y.reshape(-1, 1)
