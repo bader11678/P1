@@ -1,3 +1,3 @@
 # Still in Progress
 
-More info soon
+Machine Learning model that can recognize images.
